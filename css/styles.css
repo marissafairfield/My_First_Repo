@@ -123,6 +123,8 @@ div .container {
 img.avatar {
 	border-radius: 100pt;
 	box-shadow: 0px 0px 50px 22px rgba(0,0,0,0.1);
+	width: 100%;
+	height: auto;
 
 }
 
