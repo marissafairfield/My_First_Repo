@@ -1,0 +1,272 @@
+/* STARTER CODE -- DO NOT DELETE */
+/*	============================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1500px;
+	max-width: 100%;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+body{
+	background-image: linear-gradient(to left top, 
+	#2f7292, #177489, #0d757d, #1d746f, #30735f, #3d7756, #4d7a4c, #5f7c42, #768439, #918a31, #ae8e2c, #cf8f2f);
+}
+
+header {
+	background: rgb(0,0,0);
+	background: linear-gradient(360deg, #023020 0%, rgba(47,114,146,1) 100%);
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	box-shadow: 0px 32px 48px 4px rgba(0,0,0,0.1);
+	}
+
+nav{
+	display: flex;	
+	list-style:none;
+	justify-content: center;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav ul li a{
+	list-style: none;
+	background-color:#CF8F2F;
+	padding: 1rem 3rem;
+	border-radius: 100pt;
+	transition: all .3s linear;
+	box-shadow: 0px 36px 58px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+nav ul li a:hover {
+	background:#48704C;
+	box-shadow: inset 0px 36px 58px -3px rgba(255, 255, 255, 0.1);
+}
+
+nav ul li{
+	color:#fff;
+	font-family: 'Cinzel Decorative', cursive;
+	font-weight: bold;	
+	font-size:2rem;
+	list-style: none;
+	margin: 0;
+	padding: 2rem;
+	display: flex;
+	flex-direction:row;
+}
+
+nav li a{
+	color:#fff;
+	list-style-type: none;
+	display:flex;	
+	
+}
+
+body {
+	font-family: 'PT Serif', serif;
+	line-height: 2;
+	text-align:center;
+}
+
+main h1 {
+	text-align: center;
+	color:#023020;
+	font-size: 4rem;
+	font-family: 'Cinzel Decorative', cursive;
+	text-decoration: underline;
+	text-shadow: 1px 1px 1px #CF8F2F,
+	1px 2px 1px #CF8F2F,
+	1px 3px 1px #CF8F2F,
+	1px 4px 1px #CF8F2F,
+	1px 5px 1px #CF8F2F,
+	1px 6px 1px #CF8F2F,
+	1px 10px 5px rgba(16, 16, 16, 0.5),
+	1px 15px 10px rgba(16, 16, 16, 0.4),
+	1px 20px 30px rgba(16, 16, 16, 0.3),
+	1px 25px 50px rgba(16, 16, 16, 0.2);
+}
+
+h2 {
+	text-align: center;
+	color:#023020;
+	font-size: 45pt;
+	font-family: 'Cinzel Decorative', cursive;
+	border-radius: 20px;
+	padding: 2rem;	
+	text-decoration: underline;
+}
+
+
+h3 {
+	font-size: 30pt;
+	font-weight: bold;
+	text-align:center;
+	color:#023020;
+	
+}
+
+div .container {
+	list-style: none;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+img.avatar {
+	border-radius: 100pt;
+	box-shadow: 0px 0px 50px 22px rgba(0,0,0,0.1);
+
+}
+
+element .style {
+	background-color: rgba(255,255,255,.5);
+}
+
+.ShirePicture {
+	width:100%;
+	height:max-content;
+}
+
+div .section-content {
+	text-align:center;
+	margin-left: 800px;
+	margin-right: 800px;
+}
+
+.page-section page-section--stats {
+	padding: 4rem;
+}
+
+div .stat-item {
+	background: #ffffff;
+	color: #023020;
+}
+
+div .statBoxes {
+	align-items:center;
+}
+
+.stat-item--one {
+	display:inline-block;
+	list-style:none;
+	border-radius: 20px;
+	width: 25%;
+	margin-right: 4rem;
+	box-shadow: 0px 32px 48px 4px rgba(0,0,0,0.1);
+	
+}
+
+.stat-item--two {
+	display:inline-block;
+	list-style:none;
+	border-radius: 20px;
+	width: 25%;
+	margin-right: 4rem;
+	box-shadow: 0px 32px 48px 4px rgba(0,0,0,0.1);
+}
+
+.stat-item--three {
+	display:inline-block;
+	list-style:none;
+	border-radius: 20px;
+	width: 25%;
+	box-shadow: 0px 32px 48px 4px rgba(0,0,0,0.1);
+}
+
+
+p {
+	font-size: 24pt;
+	text-align: center;
+	color: #023020;
+	width:100%;
+}
+
+.swatch-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 -.5rem;
+	width: 100%;
+}
+
+.swatch-item {
+	width: calc(20% - 1rem);
+	padding: .5rem;
+	margin: .5rem;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 14px;
+	box-shadow: 0px 10px 43px -3px rgba(0,0,0,0.1);
+}
+
+.swatch-sample {
+	height: 100px;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+.swatch-hex {
+	padding: .5rem 0 0;
+	text-align: center;
+	font-size: 20pt;
+}
+
+.swatch-sample--one {
+	background-color:#656f66;
+}
+
+.swatch-sample--two {
+	background-color:#CF8F2F;
+}
+
+.swatch-sample--three {
+	background-color:#2F7292;
+}
+
+.swatch-sample--four {
+	background-color:#48704C;
+}
+
+.quote h2 {
+	padding: 1rem;
+}
+
+
+
+.page-section--quote {
+	background-color:#02302063
+}
+
+.page-section--quote h2 {
+	color:#023020;
+}
+
+blockquote {
+	font-family: 'Cinzel Decorative', cursive;
+	font-weight: regular;	
+	font-size:2rem;
+	font-weight:bold;
+}
+
+figcaption {
+	font-family: 'Cinzel Decorative', cursive;
+	font-weight: regular;	
+	font-size:2rem;
+	font-weight:bold;
+	color:#023020;
+}
+
+
+.page-section--quote {
+	background-image: url('../images/Hobbiton3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
